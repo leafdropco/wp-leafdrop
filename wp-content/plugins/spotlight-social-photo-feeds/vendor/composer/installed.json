@@ -1,0 +1,1418 @@
+{
+    "packages": [
+        {
+            "name": "container-interop/service-provider",
+            "version": "v0.4.0",
+            "version_normalized": "0.4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/container-interop/service-provider.git",
+                "reference": "4969b9e49460690b7430b3f1a87cab07be61418a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/container-interop/service-provider/zipball/4969b9e49460690b7430b3f1a87cab07be61418a",
+                "reference": "4969b9e49460690b7430b3f1a87cab07be61418a",
+                "shasum": ""
+            },
+            "require": {
+                "psr/container": "^1.0"
+            },
+            "time": "2017-09-20T14:13:36+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Interop\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Promoting container interoperability through standard service providers",
+            "homepage": "https://github.com/container-interop/service-provider",
+            "install-path": "../container-interop/service-provider"
+        },
+        {
+            "name": "dhii/containers",
+            "version": "dev-task/more-containers",
+            "version_normalized": "dev-task/more-containers",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dhii/containers.git",
+                "reference": "3960d87d5bc0940b92eca4b571b36bb980cd7912"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dhii/containers/zipball/3960d87d5bc0940b92eca4b571b36bb980cd7912",
+                "reference": "3960d87d5bc0940b92eca4b571b36bb980cd7912",
+                "shasum": ""
+            },
+            "require": {
+                "container-interop/service-provider": "^0.4",
+                "dhii/data-container-interface": "^0.2",
+                "php": "^7.0 | ^8.0"
+            },
+            "require-dev": {
+                "gmazzap/andrew": "^1.1",
+                "phpunit/phpunit": "^6.0 || ^7.0",
+                "psr/container": "^1.0",
+                "slevomat/coding-standard": "~4.0"
+            },
+            "time": "2020-03-14T15:30:07+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Dhii\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dhii Team",
+                    "email": "development@dhii.co"
+                }
+            ],
+            "description": "A selection of PSR-11 containers for utility, simplicity, and ease.",
+            "keywords": [
+                "PSR-11",
+                "container"
+            ],
+            "install-path": "../dhii/containers"
+        },
+        {
+            "name": "dhii/data-container-interface",
+            "version": "v0.2",
+            "version_normalized": "0.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dhii/data-container-interface.git",
+                "reference": "3c3abe3c251e413915b139700a3bf6d52109ed8d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dhii/data-container-interface/zipball/3c3abe3c251e413915b139700a3bf6d52109ed8d",
+                "reference": "3c3abe3c251e413915b139700a3bf6d52109ed8d",
+                "shasum": ""
+            },
+            "require": {
+                "dhii/exception-interface": "^0.1 | ^0.2",
+                "dhii/factory-interface": "^0.1-alpha1",
+                "php": "^5.3 | ^7.0",
+                "psr/container": "^1.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "<=0.3.2",
+                "dhii/php-cs-fixer-config": "dev-php-5.3",
+                "dhii/stringable-interface": "^0.1",
+                "phpunit/phpunit": "^4.8",
+                "ptrofimov/xpmock": "^1.1"
+            },
+            "suggest": {
+                "dhii/stringable-interface": "To be able to pass Stringables as keys"
+            },
+            "time": "2019-05-10T13:48:39+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.2.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Dhii\\Data\\Container\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dhii Team",
+                    "email": "development@dhii.co"
+                }
+            ],
+            "description": "Interfaces for working with data containers",
+            "abandoned": "dhii/collections-interface",
+            "install-path": "../dhii/data-container-interface"
+        },
+        {
+            "name": "dhii/exception-interface",
+            "version": "v0.2",
+            "version_normalized": "0.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dhii/exception-interface.git",
+                "reference": "b69feebf7cb2879cd43977a03342e2393b73f7fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dhii/exception-interface/zipball/b69feebf7cb2879cd43977a03342e2393b73f7fb",
+                "reference": "b69feebf7cb2879cd43977a03342e2393b73f7fb",
+                "shasum": ""
+            },
+            "require": {
+                "dhii/stringable-interface": "^0.1",
+                "php": "^5.3 | ^7.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "<=0.3.2",
+                "dhii/php-cs-fixer-config": "dev-php-5.3",
+                "phpunit/phpunit": "^4.8",
+                "ptrofimov/xpmock": "^1.1"
+            },
+            "time": "2018-08-29T10:42:04+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.2.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Dhii\\Exception\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dhii Team",
+                    "email": "development@dhii.co"
+                }
+            ],
+            "description": "Interfaces for most common exceptions",
+            "install-path": "../dhii/exception-interface"
+        },
+        {
+            "name": "dhii/factory-interface",
+            "version": "v0.1",
+            "version_normalized": "0.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dhii/factory-interface.git",
+                "reference": "b8d217aec8838e64ccaa770cb03dc164bf6f0515"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dhii/factory-interface/zipball/b8d217aec8838e64ccaa770cb03dc164bf6f0515",
+                "reference": "b8d217aec8838e64ccaa770cb03dc164bf6f0515",
+                "shasum": ""
+            },
+            "require": {
+                "dhii/exception-interface": "^0.1|^0.2",
+                "php": "^5.3 | ^7.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "<=0.3.2",
+                "dhii/php-cs-fixer-config": "dev-php-5.3",
+                "dhii/stringable-interface": "^0.1",
+                "phpunit/phpunit": "^4.8",
+                "psr/container": "^1.0",
+                "ptrofimov/xpmock": "^1.1"
+            },
+            "time": "2018-08-29T11:15:09+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Dhii\\Factory\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dhii Team",
+                    "email": "development@dhii.co"
+                }
+            ],
+            "description": "Interfaces for working with factories.",
+            "install-path": "../dhii/factory-interface"
+        },
+        {
+            "name": "dhii/module-interface",
+            "version": "v0.2.0-alpha1",
+            "version_normalized": "0.2.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dhii/module-interface.git",
+                "reference": "cb2eaaac0fa4bd4a82bc2b38c10e3a794ce32d52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dhii/module-interface/zipball/cb2eaaac0fa4bd4a82bc2b38c10e3a794ce32d52",
+                "reference": "cb2eaaac0fa4bd4a82bc2b38c10e3a794ce32d52",
+                "shasum": ""
+            },
+            "require": {
+                "container-interop/service-provider": "^0.4",
+                "php": "^7.1",
+                "psr/container": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.0 | ^7.0"
+            },
+            "time": "2020-04-10T14:27:05+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.2.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Dhii\\Modular\\Module\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dhii Team",
+                    "email": "development@dhii.co"
+                }
+            ],
+            "description": "Interfaces for modules",
+            "install-path": "../dhii/module-interface"
+        },
+        {
+            "name": "dhii/output-renderer-interface",
+            "version": "v0.3",
+            "version_normalized": "0.3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dhii/output-renderer-interface.git",
+                "reference": "407014d7fd1af0427958f2acd61aff008ee9e032"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dhii/output-renderer-interface/zipball/407014d7fd1af0427958f2acd61aff008ee9e032",
+                "reference": "407014d7fd1af0427958f2acd61aff008ee9e032",
+                "shasum": ""
+            },
+            "require": {
+                "dhii/exception-interface": "^0.1 | ^0.2",
+                "dhii/factory-interface": "^0.1-alpha2",
+                "dhii/stringable-interface": "^0.1",
+                "php": "^5.3 | ^7.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "dhii/php-cs-fixer-config": "dev-php-5.3",
+                "phpunit/phpunit": "4.*",
+                "psr/container": "^1.0",
+                "ptrofimov/xpmock": "^1.1"
+            },
+            "suggest": {
+                "dhii/container-helper-base": "Useful for reading data from different context types uniformly"
+            },
+            "time": "2019-11-14T11:20:00+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.3.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Dhii\\Output\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dhii Team",
+                    "email": "development@dhii.co"
+                }
+            ],
+            "description": "An interface for objects that can perform rendering.",
+            "install-path": "../dhii/output-renderer-interface"
+        },
+        {
+            "name": "dhii/services",
+            "version": "dev-initial-version",
+            "version_normalized": "dev-initial-version",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dhii/services.git",
+                "reference": "ae4aa3e97d02ebb749a8f62b6bf5705a5fdafebf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dhii/services/zipball/ae4aa3e97d02ebb749a8f62b6bf5705a5fdafebf",
+                "reference": "ae4aa3e97d02ebb749a8f62b6bf5705a5fdafebf",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0",
+                "psr/container": "^1.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "<=0.3.2",
+                "phpunit/phpunit": "^6.0 || ^7.0"
+            },
+            "time": "2020-10-21T09:14:40+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Dhii\\Services\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dhii Team",
+                    "email": "development@dhii.co"
+                }
+            ],
+            "description": "A collection of useful DI service implementations.",
+            "install-path": "../dhii/services"
+        },
+        {
+            "name": "dhii/stringable-interface",
+            "version": "v0.1",
+            "version_normalized": "0.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dhii/stringable-interface.git",
+                "reference": "b6653905eef2ebf377749feb80a6d18abbe913ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dhii/stringable-interface/zipball/b6653905eef2ebf377749feb80a6d18abbe913ef",
+                "reference": "b6653905eef2ebf377749feb80a6d18abbe913ef",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3 | ^7.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "<=0.3.2",
+                "dhii/php-cs-fixer-config": "dev-php-5.3",
+                "phpunit/phpunit": "^4.8",
+                "ptrofimov/xpmock": "^1.1"
+            },
+            "time": "2017-01-23T15:08:20+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Dhii\\Util\\String\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dhii Team",
+                    "email": "development@dhii.co"
+                }
+            ],
+            "description": "Interoperability interface for objects that can be cast to string",
+            "install-path": "../dhii/stringable-interface"
+        },
+        {
+            "name": "dhii/transformer-interface",
+            "version": "v0.1-alpha1",
+            "version_normalized": "0.1.0.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dhii/transformer-interface.git",
+                "reference": "e774efef46413eb34bdafc19a6bd74fbf656235d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dhii/transformer-interface/zipball/e774efef46413eb34bdafc19a6bd74fbf656235d",
+                "reference": "e774efef46413eb34bdafc19a6bd74fbf656235d",
+                "shasum": ""
+            },
+            "require": {
+                "dhii/exception-interface": "^0.1 | ^0.2-alpha1",
+                "dhii/factory-interface": "^0.1-alpha1",
+                "php": "^5.3 | ^7.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "<=0.3.2",
+                "dhii/php-cs-fixer-config": "dev-php-5.3",
+                "phpunit/phpunit": "^4.8",
+                "ptrofimov/xpmock": "^1.1"
+            },
+            "time": "2018-05-15T16:59:05+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Dhii\\Transformer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dhii Team",
+                    "email": "development@dhii.co"
+                }
+            ],
+            "description": "Interfaces for data transformation",
+            "install-path": "../dhii/transformer-interface"
+        },
+        {
+            "name": "freemius/wordpress-sdk",
+            "version": "2.4.1",
+            "version_normalized": "2.4.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Freemius/wordpress-sdk.git",
+                "reference": "4f60bf8a5d0635954fb911ffd52a21bc06aa7561"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Freemius/wordpress-sdk/zipball/4f60bf8a5d0635954fb911ffd52a21bc06aa7561",
+                "reference": "4f60bf8a5d0635954fb911ffd52a21bc06aa7561",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "time": "2020-10-16T08:50:13+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "description": "Freemius WordPress SDK",
+            "homepage": "https://freemius.com",
+            "keywords": [
+                "freemius",
+                "plugin",
+                "sdk",
+                "theme",
+                "wordpress",
+                "wordpress-plugin",
+                "wordpress-theme"
+            ],
+            "install-path": "../freemius/wordpress-sdk"
+        },
+        {
+            "name": "guzzlehttp/guzzle",
+            "version": "6.5.5",
+            "version_normalized": "6.5.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "9d4290de1cfd701f38099ef7e183b64b4b7b0c5e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/9d4290de1cfd701f38099ef7e183b64b4b7b0c5e",
+                "reference": "9d4290de1cfd701f38099ef7e183b64b4b7b0c5e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "guzzlehttp/promises": "^1.0",
+                "guzzlehttp/psr7": "^1.6.1",
+                "php": ">=5.5",
+                "symfony/polyfill-intl-idn": "^1.17.0"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
+                "psr/log": "^1.1"
+            },
+            "suggest": {
+                "psr/log": "Required for using the Log middleware"
+            },
+            "time": "2020-06-16T21:01:06+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.5-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "install-path": "../guzzlehttp/guzzle"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "version": "1.4.0",
+            "version_normalized": "1.4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/promises.git",
+                "reference": "60d379c243457e073cff02bc323a2a86cb355631"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/60d379c243457e073cff02bc323a2a86cb355631",
+                "reference": "60d379c243457e073cff02bc323a2a86cb355631",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^4.4 || ^5.1"
+            },
+            "time": "2020-09-30T07:37:28+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle promises library",
+            "keywords": [
+                "promise"
+            ],
+            "install-path": "../guzzlehttp/promises"
+        },
+        {
+            "name": "guzzlehttp/psr7",
+            "version": "1.7.0",
+            "version_normalized": "1.7.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/psr7.git",
+                "reference": "53330f47520498c0ae1f61f7e2c90f55690c06a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/53330f47520498c0ae1f61f7e2c90f55690c06a3",
+                "reference": "53330f47520498c0ae1f61f7e2c90f55690c06a3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "psr/http-message": "~1.0",
+                "ralouphie/getallheaders": "^2.0.5 || ^3.0.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "ext-zlib": "*",
+                "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.14 || ^7.5.20 || ^8.5.8 || ^9.3.10"
+            },
+            "suggest": {
+                "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
+            },
+            "time": "2020-09-30T07:37:11+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.7-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "homepage": "https://github.com/Tobion"
+                }
+            ],
+            "description": "PSR-7 message implementation that also provides common utility methods",
+            "keywords": [
+                "http",
+                "message",
+                "psr-7",
+                "request",
+                "response",
+                "stream",
+                "uri",
+                "url"
+            ],
+            "install-path": "../guzzlehttp/psr7"
+        },
+        {
+            "name": "kevinrob/guzzle-cache-middleware",
+            "version": "v3.3.1",
+            "version_normalized": "3.3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Kevinrob/guzzle-cache-middleware.git",
+                "reference": "f978b8da7484a16e26589a5518d6bacc6ccdee99"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Kevinrob/guzzle-cache-middleware/zipball/f978b8da7484a16e26589a5518d6bacc6ccdee99",
+                "reference": "f978b8da7484a16e26589a5518d6bacc6ccdee99",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "cache/array-adapter": "^0.4 || ^0.5 || ^1.0",
+                "cache/simple-cache-bridge": "^0.1 || ^1.0",
+                "doctrine/cache": "^1.0",
+                "guzzlehttp/guzzle": "^6.0",
+                "illuminate/cache": "^5.0",
+                "league/flysystem": "^1.0",
+                "phpunit/phpunit": "^4.8.36 || ^5.0",
+                "psr/cache": "^1.0",
+                "symfony/phpunit-bridge": "^4.4 || ^5.0"
+            },
+            "suggest": {
+                "doctrine/cache": "This library has a lot of ready-to-use cache storage (to be used with Kevinrob\\GuzzleCache\\Storage\\DoctrineCacheStorage).",
+                "guzzlehttp/guzzle": "For using this library. It was created for Guzzle6 (but you can use it with any PSR-7 HTTP client).",
+                "laravel/framework": "To be used with Kevinrob\\GuzzleCache\\Storage\\LaravelCacheStorage",
+                "league/flysystem": "To be used with Kevinrob\\GuzzleCache\\Storage\\FlysystemStorage",
+                "psr/cache": "To be used with Kevinrob\\GuzzleCache\\Storage\\Psr6CacheStorage",
+                "psr/simple-cache": "To be used with Kevinrob\\GuzzleCache\\Storage\\Psr16CacheStorage"
+            },
+            "time": "2020-02-14T11:17:02+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Kevinrob\\GuzzleCache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Robatel",
+                    "email": "kevinrob2@gmail.com",
+                    "homepage": "https://github.com/Kevinrob"
+                }
+            ],
+            "description": "A HTTP/1.1 Cache for Guzzle 6. It's a simple Middleware to be added in the HandlerStack. (RFC 7234)",
+            "homepage": "https://github.com/Kevinrob/guzzle-cache-middleware",
+            "keywords": [
+                "Etag",
+                "Flysystem",
+                "Guzzle",
+                "cache",
+                "cache-control",
+                "doctrine",
+                "expiration",
+                "guzzle6",
+                "handler",
+                "http",
+                "http 1.1",
+                "middleware",
+                "performance",
+                "php",
+                "promise",
+                "psr6",
+                "psr7",
+                "rfc7234",
+                "validation"
+            ],
+            "install-path": "../kevinrob/guzzle-cache-middleware"
+        },
+        {
+            "name": "liborm85/composer-vendor-cleaner",
+            "version": "1.3.1",
+            "version_normalized": "1.3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/liborm85/composer-vendor-cleaner.git",
+                "reference": "0c34ce8bbb6f827aa15311233dd4a3f971ee4224"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/liborm85/composer-vendor-cleaner/zipball/0c34ce8bbb6f827aa15311233dd4a3f971ee4224",
+                "reference": "0c34ce8bbb6f827aa15311233dd4a3f971ee4224",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.1 || ^2.0"
+            },
+            "require-dev": {
+                "composer/composer": "^1.1 || 2.0.*@dev",
+                "phpunit/phpunit": "^5.7 || ^6.5 || ^7.5 || ^8.4 || ^9.1"
+            },
+            "time": "2020-05-15T04:56:30+00:00",
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Liborm85\\ComposerVendorCleaner\\Plugin"
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Liborm85\\ComposerVendorCleaner\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Libor M.",
+                    "email": "liborm85@gmail.com"
+                }
+            ],
+            "description": "Composer Vendor Cleaner removes unnecessary development files and directories from vendor directory.",
+            "keywords": [
+                ".gitattributes",
+                "cleaner",
+                "cleanup",
+                "composer",
+                "composer-plugin",
+                "delete",
+                "ignore",
+                "php",
+                "remove"
+            ],
+            "install-path": "../liborm85/composer-vendor-cleaner"
+        },
+        {
+            "name": "psr/container",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2017-02-14T16:28:37+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "install-path": "../psr/container"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2016-08-06T14:39:51+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "install-path": "../psr/http-message"
+        },
+        {
+            "name": "psr/simple-cache",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/simple-cache.git",
+                "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+                "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2017-10-23T01:57:42+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\SimpleCache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interfaces for simple caching",
+            "keywords": [
+                "cache",
+                "caching",
+                "psr",
+                "psr-16",
+                "simple-cache"
+            ],
+            "install-path": "../psr/simple-cache"
+        },
+        {
+            "name": "ralouphie/getallheaders",
+            "version": "3.0.3",
+            "version_normalized": "3.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ralouphie/getallheaders.git",
+                "reference": "120b605dfeb996808c31b6477290a714d356e822"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
+                "reference": "120b605dfeb996808c31b6477290a714d356e822",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^5 || ^6.5"
+            },
+            "time": "2019-03-08T08:55:37+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/getallheaders.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ralph Khattar",
+                    "email": "ralph.khattar@gmail.com"
+                }
+            ],
+            "description": "A polyfill for getallheaders.",
+            "install-path": "../ralouphie/getallheaders"
+        },
+        {
+            "name": "rebelcode/entities",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/RebelCode/entities.git",
+                "reference": "6dea13dce20fc4dfa220953f207a31ca53703af7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/RebelCode/entities/zipball/6dea13dce20fc4dfa220953f207a31ca53703af7",
+                "reference": "6dea13dce20fc4dfa220953f207a31ca53703af7",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.4 | ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8"
+            },
+            "time": "2020-03-13T13:34:10+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "RebelCode\\Entities\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "RebelCode",
+                    "email": "dev@rebelcode.com"
+                }
+            ],
+            "description": "A lightweight library for working with class-less entities.",
+            "install-path": "../rebelcode/entities"
+        },
+        {
+            "name": "symfony/polyfill-intl-idn",
+            "version": "v1.20.0",
+            "version_normalized": "1.20.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-intl-idn.git",
+                "reference": "3b75acd829741c768bc8b1f84eb33265e7cc5117"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/3b75acd829741c768bc8b1f84eb33265e7cc5117",
+                "reference": "3b75acd829741c768bc8b1f84eb33265e7cc5117",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1",
+                "symfony/polyfill-intl-normalizer": "^1.10",
+                "symfony/polyfill-php72": "^1.10"
+            },
+            "suggest": {
+                "ext-intl": "For best performance"
+            },
+            "time": "2020-10-23T14:02:19+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.20-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Intl\\Idn\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Laurent Bassin",
+                    "email": "laurent@bassin.info"
+                },
+                {
+                    "name": "Trevor Rowbotham",
+                    "email": "trevor.rowbotham@pm.me"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for intl's idn_to_ascii and idn_to_utf8 functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "idn",
+                "intl",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "../symfony/polyfill-intl-idn"
+        },
+        {
+            "name": "symfony/polyfill-intl-normalizer",
+            "version": "v1.20.0",
+            "version_normalized": "1.20.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
+                "reference": "727d1096295d807c309fb01a851577302394c897"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/727d1096295d807c309fb01a851577302394c897",
+                "reference": "727d1096295d807c309fb01a851577302394c897",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "suggest": {
+                "ext-intl": "For best performance"
+            },
+            "time": "2020-10-23T14:02:19+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.20-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Intl\\Normalizer\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for intl's Normalizer class and related functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "intl",
+                "normalizer",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "../symfony/polyfill-intl-normalizer"
+        },
+        {
+            "name": "symfony/polyfill-php72",
+            "version": "v1.20.0",
+            "version_normalized": "1.20.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php72.git",
+                "reference": "cede45fcdfabdd6043b3592e83678e42ec69e930"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/cede45fcdfabdd6043b3592e83678e42ec69e930",
+                "reference": "cede45fcdfabdd6043b3592e83678e42ec69e930",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "time": "2020-10-23T14:02:19+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.20-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php72\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 7.2+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "../symfony/polyfill-php72"
+        },
+        {
+            "name": "wp-oop/transient-cache",
+            "version": "dev-develop",
+            "version_normalized": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-oop/transient-cache.git",
+                "reference": "94b21321867dfb82eda7fe2ab962895c939f446d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-oop/transient-cache/zipball/94b21321867dfb82eda7fe2ab962895c939f446d",
+                "reference": "94b21321867dfb82eda7fe2ab962895c939f446d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1",
+                "psr/simple-cache": "^1.0"
+            },
+            "require-dev": {
+                "brain/monkey": "^2.3",
+                "johnpbloch/wordpress-core": "^5.0",
+                "phpunit/phpunit": "^7.1"
+            },
+            "time": "2020-10-14T08:37:13+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "WpOop\\TransientCache\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Ukhanev",
+                    "email": "xedin.unknown@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A PSR-16 wrapper for WP transients.",
+            "install-path": "../wp-oop/transient-cache"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

@@ -1,0 +1,32 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.qode-pl-holder .qode-pli .qode-pli-add-to-cart a {
+  border: 1px solid #1b6603;
+  background-color: #1b6603;
+  color: #fff;
+  padding: .5rem;
+  transition: all ease-in-out 0.3s;
+}
+.qode-pl-holder .qode-pli .qode-pli-add-to-cart a:hover {
+  color:#fff !important;
+  font-weight: 900;
+}
+
+.qode-pl-holder.qode-info-below-image .qode-pli .qode-pli-text-wrapper .qode-pli-add-to-cart {
+      bottom: -15px;
+}
+
+.qode-pl-holder.qode-info-below-image .qode-pli .qode-pli-text-wrapper .qode-pli-price {
+      margin-top: 15px;
+}
+
+.qode-pli-onsale {
+    background-color: #1b6603;
+    padding: 8px !important;
+    border-radius: 50% !important;
+    height: 45px !important;
+    width: 45px !important;
+    color: #fff !important;
+  font-weight: 800 !important;
+}</style>
+<!-- end Simple Custom CSS and JS -->

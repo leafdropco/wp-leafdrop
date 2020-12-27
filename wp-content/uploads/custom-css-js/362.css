@@ -1,0 +1,55 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+/* SHOPPING CART */
+.header_inner_right > .side_menu_button_wrapper .right > .shopping_cart_outer > .shopping_cart_inner > .shopping_cart_header > .header_bottom .shopping_cart_dropdown .drop_down .second .inner ul, .drop_down .second .inner ul li ul, .shopping_cart_dropdown, li.narrow .second .inner ul, .header_top .right #lang_sel ul ul, .drop_down .wide .second ul li.show_widget_area_in_popup .widget, .drop_down .wide.wide_background .second {
+    background-color: #fafafa;
+    color: rgba(255,255,255,1);
+    border-radius: 0.7rem;
+}
+
+.shopping_cart_dropdown ul li {
+  border-bottom: 1px solid #ccc !important;
+  color: #000 !important;
+  font-weight: 900;
+}
+
+.shopping_cart_dropdown ul li a, .shopping_cart_dropdown span.total {
+    color: #000 !important;
+  font-size: 0.8rem;
+}
+
+.shopping_cart_dropdown > * {
+    color: #000 !important;
+}
+
+.shopping_cart_dropdown .cart_list a>img {
+    border-radius: 100%;
+    height: 50px;
+    max-width: 50px !important;
+    padding: 0 !important;
+    margin-right: 10px;
+}
+
+span.woocommerce-Price-amount.amount {
+    color: #000;
+}
+
+.shopping_cart_dropdown .cart_list span.quantity, .shopping_cart_dropdown span.total span {
+    color: #000;
+}
+
+.qbutton.white {
+    border-color: #000;
+}</style>
+<!-- end Simple Custom CSS and JS -->

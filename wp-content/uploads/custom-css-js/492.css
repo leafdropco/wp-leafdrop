@@ -1,0 +1,43 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+.woocommerce .widget_price_filter .ui-slider-horizontal .ui-slider-range, .woocommerce-page .widget_price_filter .ui-slider-horizontal .ui-slider-range {
+    background-color: #92b5ae !important;
+}
+
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle, .woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle {
+    background-color: #53cab1;
+    border: 0;
+}
+
+.woof_price_search_container .price_slider_amount .price_label {
+    color: #379c87;
+}
+
+.chosen-container {
+    border: 1px solid #92b5ae;
+}
+
+aside .widget h5 {
+    margin-bottom: 1.5rem;
+    color: #505050 !important;
+}
+
+.woocommerce .widget_price_filter .button, .woocommerce-page .widget_price_filter .button {
+    font-family: 'Lato', sans-serif;
+    background-color: #53cab1;
+    color: #fff;
+    border: 0;
+    font-size: 1rem;
+}</style>
+<!-- end Simple Custom CSS and JS -->

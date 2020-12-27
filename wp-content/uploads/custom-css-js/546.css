@@ -1,0 +1,43 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+.disclaimer-box {
+  border: 1px solid #ffffff;
+  font-size: 0.6rem;
+  padding: 0.75rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  line-height: 0.9rem;
+  background-color: #00000010;
+}
+
+.footer_top ul#menu-footer-menu > li > * {
+  font-family: 'Lato', sans-serif !important;
+  font-style: normal;
+  font-size: 15px !important;
+}
+
+.footer_top, .footer_top .footer_col1, .footer_top .container_inner > .widget, .footer_top.footer_top_full > .widget {
+  text-align: center;
+}
+
+.footer_top h5 {
+  font-weight: 900 !important;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .footer_top, .footer_top .footer_col1, .footer_top .container_inner > .widget, .footer_top.footer_top_full > .widget {
+  	text-align: center;
+	}
+}</style>
+<!-- end Simple Custom CSS and JS -->

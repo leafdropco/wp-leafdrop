@@ -1,0 +1,1 @@
+<?php echo bridge_qode_execute_shortcode('icons', $icon_parameters);

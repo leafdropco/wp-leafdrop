@@ -1,0 +1,7 @@
+2020-12-27T17:41:33+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to RebelCode\Spotlight\Instagram\Feeds\FeedManager::createFeed() must be of the type array, bool given, called in /Users/michaelgraham/Local Sites/leafdrop/app/public/wp-content/plugins/spotlight-social-photo-feeds/core/Feeds/FeedManager.php on line 149 and defined in /Users/michaelgraham/Local Sites/leafdrop/app/public/wp-content/plugins/spotlight-social-photo-feeds/core/Feeds/FeedManager.php:130
+Stack trace:
+#0 /Users/michaelgraham/Local Sites/leafdrop/app/public/wp-content/plugins/spotlight-social-photo-feeds/core/Feeds/FeedManager.php(149): RebelCode\Spotlight\Instagram\Feeds\FeedManager->createFeed(false)
+#1 /Users/michaelgraham/Local Sites/leafdrop/app/public/wp-content/plugins/spotlight-social-photo-feeds/core/Utils/Arrays.php(31): RebelCode\Spotlight\Instagram\Feeds\FeedManager->wpPostToFeed(Object(WP_Post), 0)
+#2 [internal function]: RebelCode\Spotlight\Instagram\Utils\Arrays::RebelCode\Spotlight\Instagram\Utils\{closure}(Object(WP_Post), 0)
+#3 /Users/michaelgrah in /Users/michaelgraham/Local Sites/leafdrop/app/public/wp-content/plugins/spotlight-social-photo-feeds/core/Feeds/FeedManager.php on line 130
+
