@@ -176,7 +176,7 @@ class Admin {
 						</a>
 					</div>
 				<?php else :
-					$license_data = API::get_license_data(); ?>
+					$license_data = API::get_license_data( true ); ?>
 					<h3><?php _e( 'Status', 'elementor-pro' ); ?>:
 						<?php if ( API::STATUS_EXPIRED === $license_data['license'] ) : ?>
 							<span style="color: #ff0000; font-style: italic;"><?php _e( 'Expired', 'elementor-pro' ); ?></span>
@@ -455,7 +455,7 @@ class Admin {
 					<p class="description"><?php printf( __( 'Your license key should look something like this: %s', 'elementor-pro' ), '<code>fb351f05958872E193feb37a505a84be</code>' ); ?></p>
 
 				<?php else :
-					$license_data = API::get_license_data(); ?>
+					$license_data = API::get_license_data( true ); ?>
 					<input type="hidden" name="action" value="elementor_pro_deactivate_license"/>
 
 					<label for="elementor-pro-license-key"><?php _e( 'Your License Key', 'elementor-pro' ); ?>:</label>

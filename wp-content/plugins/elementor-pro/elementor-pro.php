@@ -14,9 +14,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-update_option( 'elementor_pro_license_key', 'activated' );
-update_option( '_elementor_pro_license_data', [ 'timeout' => strtotime( '+12 hours', current_time( 'timestamp' ) ), 'value' => json_encode( [ 'license' => 'valid', 'expires' => '01.01.2030' ] ) ] );
-
 define( 'ELEMENTOR_PRO_VERSION', '3.0.8' );
 define( 'ELEMENTOR_PRO_PREVIOUS_STABLE_VERSION', '2.10.3' );
 

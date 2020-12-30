@@ -1,0 +1,60 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+main > div > div.woocommerce > form > table > tbody > tr > td.product-name > a {
+  color: #3ec398 !important;
+}
+
+.woocommerce-info {
+    border-top-color: #3ec398 !important;
+}
+
+.woocommerce-info > a.showcoupon {
+    color: #3ec398 !important;
+}
+
+.woocommerce-info::before {
+    color: #3ec398 !important;
+}
+
+.woocommerce-checkout #payment {
+    background: #2a9875 !important;
+}
+
+.woocommerce-checkout #payment div.payment_box {
+    color: #ffffff !important;
+    background-color: #568274 !important;
+    border-radius: 5px !important;
+}
+
+#add_payment_method #payment div.payment_box::before, .woocommerce-cart #payment div.payment_box::before, .woocommerce-checkout #payment div.payment_box::before {
+  display: none !important;
+}
+.woocommerce-checkout #payment div.payment_box:after {
+  display: none !important;
+}
+
+.woocommerce-checkout #payment ul.payment_methods {
+    border-bottom: 1px solid #d3ced3 !important;
+    padding-top: 0 !important;
+}
+
+fieldset#wc-square-credit-card-credit-card-form {
+    padding: 0.7rem 1rem;
+    border-color: #ffffff3d;
+}
+
+.woocommerce-checkout #payment ul.payment_methods {
+    border-bottom: 1px solid #ffffff36 !important;
+}</style>
+<!-- end Simple Custom CSS and JS -->
